@@ -14,5 +14,5 @@ steps:
   inputs:
     azureSubscription: 'Pay-As-You-Go(2341fd5b-cc80-43f9-a50e-07fa57cc10ae)'
     scriptType: 'ps'
-    scriptLocation: 'scriptPath'
-    scriptPath: 'az group list'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az group list'
